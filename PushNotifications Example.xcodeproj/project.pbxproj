@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DF35D4ED1D306D5C00AEDACA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF35D4EC1D306D5C00AEDACA /* main.m */; };
 		DF35D4F01D306D5C00AEDACA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF35D4EF1D306D5C00AEDACA /* AppDelegate.m */; };
-		DF35D4F31D306D5C00AEDACA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF35D4F21D306D5C00AEDACA /* ViewController.m */; };
+		DF35D4F31D306D5C00AEDACA /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = DF35D4F21D306D5C00AEDACA /* Home.m */; };
 		DF35D4F61D306D5C00AEDACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF35D4F41D306D5C00AEDACA /* Main.storyboard */; };
 		DF35D4F91D306D5C00AEDACA /* PushNotifications_Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF35D4F71D306D5C00AEDACA /* PushNotifications_Example.xcdatamodeld */; };
 		DF35D4FB1D306D5C00AEDACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF35D4FA1D306D5C00AEDACA /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		DF35D4EC1D306D5C00AEDACA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF35D4EE1D306D5C00AEDACA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF35D4EF1D306D5C00AEDACA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DF35D4F11D306D5C00AEDACA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DF35D4F21D306D5C00AEDACA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF35D4F11D306D5C00AEDACA /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		DF35D4F21D306D5C00AEDACA /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		DF35D4F51D306D5C00AEDACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF35D4F81D306D5C00AEDACA /* PushNotifications_Example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PushNotifications_Example.xcdatamodel; sourceTree = "<group>"; };
 		DF35D4FA1D306D5C00AEDACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		DF35D4EA1D306D5C00AEDACA /* PushNotifications Example */ = {
 			isa = PBXGroup;
 			children = (
-				DF35D4EE1D306D5C00AEDACA /* AppDelegate.h */,
-				DF35D4EF1D306D5C00AEDACA /* AppDelegate.m */,
-				DF35D4F11D306D5C00AEDACA /* ViewController.h */,
-				DF35D4F21D306D5C00AEDACA /* ViewController.m */,
+				DF35D5061D306D7D00AEDACA /* Main */,
+				DF35D5051D306D7600AEDACA /* Controllers */,
 				DF35D4F41D306D5C00AEDACA /* Main.storyboard */,
 				DF35D4FA1D306D5C00AEDACA /* Assets.xcassets */,
 				DF35D4FC1D306D5C00AEDACA /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				DF35D4EC1D306D5C00AEDACA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF35D5051D306D7600AEDACA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DF35D4F11D306D5C00AEDACA /* Home.h */,
+				DF35D4F21D306D5C00AEDACA /* Home.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DF35D5061D306D7D00AEDACA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DF35D4EE1D306D5C00AEDACA /* AppDelegate.h */,
+				DF35D4EF1D306D5C00AEDACA /* AppDelegate.m */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF35D4F31D306D5C00AEDACA /* ViewController.m in Sources */,
+				DF35D4F31D306D5C00AEDACA /* Home.m in Sources */,
 				DF35D4F01D306D5C00AEDACA /* AppDelegate.m in Sources */,
 				DF35D4ED1D306D5C00AEDACA /* main.m in Sources */,
 				DF35D4F91D306D5C00AEDACA /* PushNotifications_Example.xcdatamodeld in Sources */,
