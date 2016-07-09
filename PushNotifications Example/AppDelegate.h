@@ -9,6 +9,13 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
+@import CoreLocation;
+@import SystemConfiguration;
+@import AVFoundation;
+@import ImageIO;
+
+#import <Pushwoosh/PushNotificationManager.h>
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

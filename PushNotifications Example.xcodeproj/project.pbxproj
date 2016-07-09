@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9DDF3D3CE685C1FFDD3691D /* libPods-PushNotifications Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DB0E58299DF23E05193CEC /* libPods-PushNotifications Example.a */; };
+		DF1486931D308B8B00B1FC50 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1486921D308B8B00B1FC50 /* libstdc++.tbd */; };
 		DF35D4ED1D306D5C00AEDACA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF35D4EC1D306D5C00AEDACA /* main.m */; };
 		DF35D4F01D306D5C00AEDACA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF35D4EF1D306D5C00AEDACA /* AppDelegate.m */; };
 		DF35D4F31D306D5C00AEDACA /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = DF35D4F21D306D5C00AEDACA /* Home.m */; };
@@ -14,9 +16,15 @@
 		DF35D4F91D306D5C00AEDACA /* PushNotifications_Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF35D4F71D306D5C00AEDACA /* PushNotifications_Example.xcdatamodeld */; };
 		DF35D4FB1D306D5C00AEDACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF35D4FA1D306D5C00AEDACA /* Assets.xcassets */; };
 		DF35D4FE1D306D5C00AEDACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF35D4FC1D306D5C00AEDACA /* LaunchScreen.storyboard */; };
+		DF35D5081D30740200AEDACA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DF35D5071D30740200AEDACA /* Podfile */; };
+		DFF4288F1D30783A003424B9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF4288E1D30783A003424B9 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1089C9C362C8F853AE517F8D /* Pods-PushNotifications Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifications Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PushNotifications Example/Pods-PushNotifications Example.debug.xcconfig"; sourceTree = "<group>"; };
+		39DB0E58299DF23E05193CEC /* libPods-PushNotifications Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PushNotifications Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		559024EBDE8FA228AEDAE672 /* Pods-PushNotifications Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifications Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PushNotifications Example/Pods-PushNotifications Example.release.xcconfig"; sourceTree = "<group>"; };
+		DF1486921D308B8B00B1FC50 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		DF35D4E81D306D5C00AEDACA /* PushNotifications Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PushNotifications Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF35D4EC1D306D5C00AEDACA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF35D4EE1D306D5C00AEDACA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +36,8 @@
 		DF35D4FA1D306D5C00AEDACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF35D4FD1D306D5C00AEDACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF35D4FF1D306D5C00AEDACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF35D5071D30740200AEDACA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		DFF4288E1D30783A003424B9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +45,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF1486931D308B8B00B1FC50 /* libstdc++.tbd in Frameworks */,
+				DFF4288F1D30783A003424B9 /* libz.tbd in Frameworks */,
+				A9DDF3D3CE685C1FFDD3691D /* libPods-PushNotifications Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3291712CB7D6EE76B510BE20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF1486921D308B8B00B1FC50 /* libstdc++.tbd */,
+				DFF4288E1D30783A003424B9 /* libz.tbd */,
+				39DB0E58299DF23E05193CEC /* libPods-PushNotifications Example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7023C0E5A09203EF212682B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1089C9C362C8F853AE517F8D /* Pods-PushNotifications Example.debug.xcconfig */,
+				559024EBDE8FA228AEDAE672 /* Pods-PushNotifications Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DF35D4DF1D306D5C00AEDACA = {
 			isa = PBXGroup;
 			children = (
 				DF35D4EA1D306D5C00AEDACA /* PushNotifications Example */,
 				DF35D4E91D306D5C00AEDACA /* Products */,
+				7023C0E5A09203EF212682B8 /* Pods */,
+				3291712CB7D6EE76B510BE20 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +94,7 @@
 		DF35D4EA1D306D5C00AEDACA /* PushNotifications Example */ = {
 			isa = PBXGroup;
 			children = (
+				DF35D5071D30740200AEDACA /* Podfile */,
 				DF35D5061D306D7D00AEDACA /* Main */,
 				DF35D5051D306D7600AEDACA /* Controllers */,
 				DF35D4F41D306D5C00AEDACA /* Main.storyboard */,
@@ -105,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF35D5021D306D5C00AEDACA /* Build configuration list for PBXNativeTarget "PushNotifications Example" */;
 			buildPhases = (
+				C15169037CE1EAB7EBB3413B /* [CP] Check Pods Manifest.lock */,
 				DF35D4E41D306D5C00AEDACA /* Sources */,
 				DF35D4E51D306D5C00AEDACA /* Frameworks */,
 				DF35D4E61D306D5C00AEDACA /* Resources */,
+				1576C16C8FAE715FEDC236B0 /* [CP] Embed Pods Frameworks */,
+				19075233136B5BC1B11E8BB8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,11 +196,60 @@
 			files = (
 				DF35D4FE1D306D5C00AEDACA /* LaunchScreen.storyboard in Resources */,
 				DF35D4FB1D306D5C00AEDACA /* Assets.xcassets in Resources */,
+				DF35D5081D30740200AEDACA /* Podfile in Resources */,
 				DF35D4F61D306D5C00AEDACA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1576C16C8FAE715FEDC236B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushNotifications Example/Pods-PushNotifications Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19075233136B5BC1B11E8BB8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushNotifications Example/Pods-PushNotifications Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C15169037CE1EAB7EBB3413B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DF35D4E41D306D5C00AEDACA /* Sources */ = {
@@ -280,23 +367,30 @@
 		};
 		DF35D5031D306D5C00AEDACA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1089C9C362C8F853AE517F8D /* Pods-PushNotifications Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ivan Hernandez (5C84J8MT2V)";
 				INFOPLIST_FILE = "PushNotifications Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ivan4j.PushNotifications-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dbeb0f67-7001-421d-b042-6b93027362e3";
 			};
 			name = Debug;
 		};
 		DF35D5041D306D5C00AEDACA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 559024EBDE8FA228AEDAE672 /* Pods-PushNotifications Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ivan Hernandez (5C84J8MT2V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "PushNotifications Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ivan4j.PushNotifications-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dbeb0f67-7001-421d-b042-6b93027362e3";
 			};
 			name = Release;
 		};
@@ -319,6 +413,7 @@
 				DF35D5041D306D5C00AEDACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
